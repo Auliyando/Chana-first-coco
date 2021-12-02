@@ -143,13 +143,15 @@
   }
 }
 
-.header-blue .hero h1 {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-  font-weight: 300;
-  line-height: 1.4;
+@media (min-width: 577px) {
+  .header-blue .hero h1 {
+    color: #fff;
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
 }
 
 @media (min-width:992px) {
@@ -160,11 +162,13 @@
   }
 }
 
-.header-blue .hero p {
-  color: rgba(255,255,255,0.8);
-  font-size: 20px;
-  margin-bottom: 30px;
-  font-weight: 300;
+@media (min-width: 577px) {
+  .header-blue .hero p {
+    color: rgba(255,255,255,0.8);
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
 }
 
 .header-blue .phone-holder {

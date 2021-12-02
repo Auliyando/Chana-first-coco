@@ -1,0 +1,133 @@
+.features-clean {
+  color: #313437;
+  background-color: #00231d;
+  padding-bottom: 30px;
+}
+
+@media (max-width:767px) {
+  .features-clean {
+    padding-bottom: 10px;
+  }
+}
+
+.features-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #b7e2d9;
+}
+
+@media (max-width:767px) {
+  .features-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width:767px) {
+  .features-clean .intro {
+    margin-bottom: 40px;
+  }
+}
+
+.features-clean .item {
+  min-height: 100px;
+  padding-left: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+  .features-clean .item {
+    min-height: 0;
+  }
+}
+
+.features-clean .item .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #b7e2d9;
+}
+
+.features-clean .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.features-clean .item .icon {
+  font-size: 40px;
+  color: #b7e2d9;
+  float: left;
+  margin-left: -65px;
+}
+
+.name {
+  color: #b7e2d9;
+}
+
+p.text-center {
+  color: #b7e2d9;
+}
+
+.row.features {
+  justify-content: center;
+}
+
+.hero.isi {
+  width: 90%;
+  height: inherit;
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+}
+
+.hero.isi .row {
+  width: inherit;
+  height: inherit;
+  align-items: center;
+}
+
+.col-12.col-lg-6.col-xl-5.offset-xl-1 {
+  width: inherit;
+}
+
+@media (max-width: 576px) {
+  .header-blue .hero h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-blue .hero p {
+    color: rgba(255,255,255,0.8);
+    font-size: 0.8rem;
+    text-align: left;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 576px) {
+  div.row.people {
+    width: inherit;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "Huda""Amin""Aul""Nafis";
+    justify-items: center;
+    grid-template-columns: 1fr;
+  }
+}
+

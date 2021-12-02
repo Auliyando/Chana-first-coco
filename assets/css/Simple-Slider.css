@@ -24,3 +24,13 @@
   }
 }
 
+.simple-slider {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.swiper-slide {
+  background: #359385;
+}
+
