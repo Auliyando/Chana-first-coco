@@ -131,3 +131,22 @@ p.text-center {
   }
 }
 
+.team-clean .container {
+  color: #b7e2d9;
+  height: 75%;
+}
+
+@media (min-width: 1200px) {
+  .row.people {
+    height: 550px;
+    grid-template-areas: "Huda Amin Aul Nafis";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-clean {
+    height: 60%;
+  }
+}
+
