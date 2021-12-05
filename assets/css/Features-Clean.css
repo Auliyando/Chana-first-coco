@@ -150,3 +150,17 @@ p.text-center {
   }
 }
 
+.navigation-clean-button {
+  background-color: rgba(0,0,0,0);
+}
+
+div.contact-utama {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.contact-dalam {
+  justify-content: center;
+}
+

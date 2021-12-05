@@ -18,7 +18,7 @@
 
 .navigation-clean-button .navbar-brand {
   font-weight: bold;
-  color: inherit;
+  color: #fff;
 }
 
 .navigation-clean-button .navbar-brand:hover {
@@ -91,7 +91,6 @@
   background: #25d366;
   border-radius: 20px;
   font-size: inherit;
-  color: #fff;
   box-shadow: none;
   border: none;
   text-shadow: none;
