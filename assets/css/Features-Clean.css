@@ -1,5 +1,5 @@
 .features-clean {
-  color: #313437;
+  color: #b7e2d9;
   background-color: #00231d;
   padding-bottom: 30px;
 }
@@ -14,7 +14,6 @@
   font-weight: bold;
   margin-bottom: 40px;
   padding-top: 40px;
-  color: #b7e2d9;
 }
 
 @media (max-width:767px) {
@@ -54,7 +53,6 @@
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 20px;
-  color: #b7e2d9;
 }
 
 .features-clean .item .description {
@@ -64,17 +62,15 @@
 
 .features-clean .item .icon {
   font-size: 40px;
-  color: #b7e2d9;
   float: left;
   margin-left: -65px;
+  text-shadow: 1px .5px 1px;
 }
 
 .name {
-  color: #b7e2d9;
 }
 
 p.text-center {
-  color: #b7e2d9;
 }
 
 .row.features {
