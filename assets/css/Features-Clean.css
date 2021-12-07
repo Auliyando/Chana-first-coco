@@ -49,15 +49,17 @@
 }
 
 .features-clean .item .name {
-  font-size: 20px;
+  font-size: 1.7rem;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 20px;
 }
 
-.features-clean .item .description {
-  font-size: 15px;
-  margin-bottom: 0;
+@media (max-width: 1400px) {
+  .features-clean .item .description {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
 }
 
 .features-clean .item .icon {
@@ -70,7 +72,10 @@
 .name {
 }
 
-p.text-center {
+@media (min-width: 1401px) {
+  p {
+    font-size: 1.5rem;
+  }
 }
 
 .row.features {
