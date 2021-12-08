@@ -258,3 +258,9 @@ img.ctc {
   }
 }
 
+@media (max-width: 420px) {
+  .navbar-toggler {
+    margin: 0 auto;
+  }
+}
+
