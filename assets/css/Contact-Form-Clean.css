@@ -165,10 +165,19 @@ img.ctc {
 }
 
 .icon.ion-social-whatsapp.floating {
-  font-size: 3rem;
+  font-size: 4rem;
   position: fixed;
   bottom: 0;
-  right: 0;
+  right: 10px;
   z-index: 1000;
+}
+
+.swiper-button-next {
+  color: #01493d;
+  animation-delay: 1s;
+}
+
+.swiper-button-next {
+  animation-duration: 3s;
 }
 

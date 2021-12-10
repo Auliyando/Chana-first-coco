@@ -81,17 +81,18 @@
 .header-blue .navbar .navbar-nav > li > .dropdown-menu {
   margin-top: -5px;
   box-shadow: 0 4px 8px rgba(0,0,0,.1);
-  background-color: #fff;
+  background-color: #00231d;
   border-radius: 2px;
+  color: #359385;
 }
 
 .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item {
   line-height: 2;
-  color: #37434d;
+  color: #359385;
 }
 
 .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
-  background: #ebeff1;
+  background: #b7e2d9;
 }
 
 .header-blue .action-button, .header-blue .action-button:not(.disabled):active {
