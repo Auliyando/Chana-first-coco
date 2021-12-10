@@ -164,3 +164,10 @@ img.ctc {
   height: inherit;
 }
 
+.icon.ion-social-whatsapp.floating {
+  font-size: 3rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
