@@ -216,3 +216,12 @@
   opacity: 0.2;
 }
 
+.carousel-item.active img {
+  filter: blur(5px);
+}
+
+.hero.isi {
+  display: flex;
+  align-items: center;
+}
+
