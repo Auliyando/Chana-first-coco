@@ -9,13 +9,6 @@
   margin-bottom: 0;
 }
 
-@media (min-width:768px) {
-  .navigation-clean-button {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-}
-
 .navigation-clean-button .navbar-brand {
   font-weight: bold;
   color: #fff;

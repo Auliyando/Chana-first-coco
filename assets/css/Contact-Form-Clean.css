@@ -116,7 +116,7 @@
 }
 
 .fab.fa-facebook-square.atas {
-  color: #3b5998;
+  color: #055ada;
 }
 
 .icon.ion-social-youtube {
@@ -133,8 +133,9 @@
 
 div.container.ctc {
   background-color: #359385;
-  background-image: url("../../assets/img/Carousel%201.png");
+  background-image: url("../../assets/img/Carousel%205.png");
   background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .backnya {
@@ -179,5 +180,19 @@ img.ctc {
 
 .swiper-button-next {
   animation-duration: 3s;
+}
+
+.ilang {
+  visibility: hidden;
+}
+
+.icon.ion-social-linkedin {
+  color: #0077b5;
+}
+
+.dua {
+  font-size: 30px;
+  background-blend-mode: soft-light;
+  background-color: #282d32;
 }
 
