@@ -142,10 +142,6 @@ div.container.ctc {
   position: relative;
 }
 
-.icon.ion-social-whatsapp {
-  color: #25d366;
-}
-
 .fab.fa-youtube {
   color: #ff0000;
 }
@@ -171,6 +167,7 @@ img.ctc {
   bottom: 0;
   right: 10px;
   z-index: 1000;
+  color: #25d366;
 }
 
 .swiper-button-next {
@@ -205,5 +202,31 @@ img.ctc {
 
 .header-blue .hero p {
   font-weight: 700;
+}
+
+.fab.fa-whatsapp.floating {
+  font-size: 4rem;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 1000;
+  color: #25d366;
+}
+
+.fab.fa-whatsapp-square.floating {
+  font-size: 4rem;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 1000;
+  color: #25d366;
+}
+
+.fab.fa-whatsapp {
+  color: #25d366;
+}
+
+.fab.fa-linkedin {
+  color: #0077b5;
 }
 
