@@ -105,8 +105,7 @@
     color: #fff;
     text-align: left;
     font-size: 2rem;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 10px;
     line-height: 1.4;
   }
 }
@@ -114,8 +113,9 @@
 @media (max-width: 576px) {
   .header-blue .hero p {
     color: rgba(255,255,255,0.8);
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     text-align: left;
+    margin-bottom: 10px;
   }
 }
 

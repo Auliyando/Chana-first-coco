@@ -161,7 +161,7 @@ img.ctc {
   height: inherit;
 }
 
-.icon.ion-social-whatsapp.floating {
+a .icon.ion-social-whatsapp.floating {
   font-size: 4rem;
   position: fixed;
   bottom: 0;
@@ -228,5 +228,35 @@ img.ctc {
 
 .fab.fa-linkedin {
   color: #0077b5;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.whatsapp.floating {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 2000;
+}
+
+.header-blue .hero {
+  text-shadow: 1px 4px 20px #00231d;
+}
+
+.about-us-page {
+  background-image: url("../../assets/img/Carousel%206.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-dodge;
 }
 
