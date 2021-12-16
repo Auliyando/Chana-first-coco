@@ -260,3 +260,58 @@ a .icon.ion-social-whatsapp.floating {
   background-blend-mode: color-dodge;
 }
 
+.visi-judul {
+  text-align: center;
+}
+
+.abtus-judul {
+  text-align: left;
+}
+
+img.trans {
+  box-shadow: 0px 3px 12px 2px #00231d;
+}
+
+.vision .row {
+  align-items: center;
+}
+
+.mision {
+  background-color: #00231d;
+}
+
+.mision-item {
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 5%;
+}
+
+img.mision-item {
+  width: 100%;
+}
+
+@media (max-width: 420px) {
+  .header-blue .hero h1 {
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+}
+
+.comming-soon {
+  background-color: #00231d;
+  color: #b7e2d9;
+  display: block;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: 1000ms;
+}
+

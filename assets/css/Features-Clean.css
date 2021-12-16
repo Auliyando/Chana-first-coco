@@ -1,4 +1,4 @@
-.features-clean {
+.features-clean, .mission {
   color: #b7e2d9;
   background-color: #00231d;
   padding-bottom: 30px;
@@ -97,10 +97,10 @@
 }
 
 .col-12.col-lg-6.col-xl-5.offset-xl-1 {
-  width: inherit;
+  width: initial;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) and (min-width: 421px) {
   .header-blue .hero h1 {
     color: #fff;
     text-align: left;
@@ -110,10 +110,10 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) and (min-width: 421px) {
   .header-blue .hero p {
-    color: rgba(255,255,255,0.8);
-    font-size: 0.6rem;
+    color: rgba(255,255,255,1);
+    font-size: 0.9rem;
     text-align: left;
     margin-bottom: 10px;
   }
