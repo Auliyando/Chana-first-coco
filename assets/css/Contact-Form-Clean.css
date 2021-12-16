@@ -268,10 +268,6 @@ a .icon.ion-social-whatsapp.floating {
   text-align: left;
 }
 
-img.trans {
-  box-shadow: 0px 3px 12px 2px #00231d;
-}
-
 .vision .row {
   align-items: center;
 }
@@ -282,12 +278,8 @@ img.trans {
 
 .mision-item {
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   margin-bottom: 5%;
-}
-
-img.mision-item {
-  width: 100%;
 }
 
 @media (max-width: 420px) {
@@ -313,5 +305,73 @@ img.mision-item {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   transition: 1000ms;
+}
+
+.grid-pr {
+  margin: auto;
+  color: #00231d;
+  width: 100%;
+  height: inherit;
+  align-content: center;
+  justify-items: baseline;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.foto {
+  grid-area: foto;
+}
+
+.teks {
+  grid-area: text;
+}
+
+@media (max-width: 576px) {
+  .grid-pr {
+    margin: 12% auto;
+    display: grid;
+    grid-template-areas: "foto""text";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr;
+  }
+}
+
+.grid-pr div {
+  height: initial;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .teks p {
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 420px) {
+  .teks p {
+    position: absolute;
+    color: transparent;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+  .foto img {
+    width: 60%;
+  }
+}
+
+.mision-item .item img {
+  width: 100%;
+}
+
+@media (max-width: 420px) {
+  .mision-item div .name {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+.trans.noneshadow {
+  box-shadow: none;
 }
 
