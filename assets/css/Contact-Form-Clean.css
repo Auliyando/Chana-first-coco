@@ -328,7 +328,7 @@ a .icon.ion-social-whatsapp.floating {
 
 @media (max-width: 576px) {
   .grid-pr {
-    margin: 12% auto;
+    margin: 12% 0;
     display: grid;
     grid-template-areas: "foto""text";
     grid-template-columns: 1fr;
@@ -337,7 +337,6 @@ a .icon.ion-social-whatsapp.floating {
 }
 
 .grid-pr div {
-  height: initial;
   margin: 0;
 }
 
@@ -373,5 +372,12 @@ a .icon.ion-social-whatsapp.floating {
 
 .trans.noneshadow {
   box-shadow: none;
+}
+
+@media (max-width: 576px) {
+  .bawahnya p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
 }
 
