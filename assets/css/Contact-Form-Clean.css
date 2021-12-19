@@ -381,3 +381,41 @@ a .icon.ion-social-whatsapp.floating {
   }
 }
 
+.reflow-product {
+  color: #b7e2d9;
+}
+
+.ref-product-controls {
+  visibility: hidden;
+}
+
+.ijomuda {
+  color: #b7e2d9;
+}
+
+.page-section.about-heading.briquette-page {
+  background-image: url("../../assets/img/Carousel%205.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-1 {
+  background-color: #01493d;
+  color: #b7e2d9;
+}
+
+th {
+  color: #b7e2d9;
+}
+
+td {
+  color: #b7e2d9;
+}
+
+thead {
+  background-color: #00231d;
+}
+
+table {
+}
+
