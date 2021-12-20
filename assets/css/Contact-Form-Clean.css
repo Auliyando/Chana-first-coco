@@ -292,73 +292,6 @@ a .icon.ion-social-whatsapp.floating {
   }
 }
 
-.comming-soon {
-  background-color: #00231d;
-  color: #b7e2d9;
-  display: block;
-  width: 180px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  transition: 1000ms;
-}
-
-.grid-pr {
-  margin: auto;
-  color: #00231d;
-  width: 100%;
-  height: inherit;
-  align-content: center;
-  justify-items: baseline;
-  align-items: baseline;
-  justify-content: center;
-}
-
-.foto {
-  grid-area: foto;
-}
-
-.teks {
-  grid-area: text;
-}
-
-@media (max-width: 576px) {
-  .grid-pr {
-    margin: 12% 0;
-    display: grid;
-    grid-template-areas: "foto""text";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1.5fr;
-  }
-}
-
-.grid-pr div {
-  margin: 0;
-}
-
-@media (min-width: 576px) {
-  .teks p {
-    font-size: x-large;
-  }
-}
-
-@media (max-width: 768px) and (min-width: 420px) {
-  .teks p {
-    position: absolute;
-    color: transparent;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1439px) {
-  .foto img {
-    width: 60%;
-  }
-}
-
 .mision-item .item img {
   width: 100%;
 }
@@ -416,6 +349,32 @@ thead {
   background-color: #00231d;
 }
 
-table {
+.contact-us {
+  color: #b7e2d9;
+  background-color: #00231d;
+  display: inline-block;
+  width: 10rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border: 1px solid #b7e2d9;
+  border-radius: 10px;
+  margin: 0 10px 10px;
+  transition: 2s;
+}
+
+.contact-us:hover {
+  color: #00231d;
+  background-color: #b7e2d9;
+  border: 1px solid #00231d;
+}
+
+.bg-faded-90 {
+  background-color: rgba(183,226,217,0.9);
+}
+
+.bg-2 {
+  background-color: #282d32;
+  margin-bottom: -50px;
 }
 

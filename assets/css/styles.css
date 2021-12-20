@@ -318,7 +318,7 @@ body {
   box-sizing: border-box;
 }
 
-.bg-faded {
+.bg-faded-85 {
   background-color: rgba(183, 226, 217,.85);
 }
 
@@ -342,5 +342,72 @@ body {
   .teks p {
     font-size: 16px;
   }
+}
+
+.foto {
+  grid-area: foto;
+}
+
+.teks {
+  grid-area: text;
+}
+
+@media (max-width: 576px) {
+  .grid-pr {
+    margin: 12% 0;
+    display: grid;
+    grid-template-areas: "foto""text";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr;
+  }
+}
+
+.grid-pr div {
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .teks p {
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 420px) {
+  .teks p {
+    position: absolute;
+    color: transparent;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+  .foto img {
+    width: 60%;
+  }
+}
+
+.grid-pr {
+  margin: auto;
+  color: #00231d;
+  width: 100%;
+  height: inherit;
+  align-content: center;
+  justify-items: baseline;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.comming-soon {
+  background-color: #00231d;
+  color: #b7e2d9;
+  display: block;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: 1000ms;
 }
 
