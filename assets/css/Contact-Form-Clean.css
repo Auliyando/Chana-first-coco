@@ -133,7 +133,7 @@
 
 div.container.ctc {
   background-color: #359385;
-  background-image: url("../../assets/img/Carousel%205.png");
+  background-image: url("../../assets/img/carousel/Carousel%205.png");
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -254,7 +254,7 @@ a .icon.ion-social-whatsapp.floating {
 }
 
 .about-us-page {
-  background-image: url("../../assets/img/Carousel%206.png");
+  background-image: url("../../assets/img/carousel/Carousel%206.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: color-dodge;
@@ -327,7 +327,7 @@ a .icon.ion-social-whatsapp.floating {
 }
 
 .page-section.about-heading.briquette-page {
-  background-image: url("../../assets/img/Carousel%205.png");
+  background-image: url("../../assets/img/carousel/Carousel%205.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -374,7 +374,32 @@ thead {
 }
 
 .bg-2 {
-  background-color: #282d32;
+  background-color: inherit;
   margin-bottom: -50px;
+}
+
+header div.transisinya {
+  margin-top: -150px;
+  position: relative;
+}
+
+.video-yt {
+  width: 560px;
+  height: 315px;
+  margin: auto;
+}
+
+ol.carousel-indicators {
+  visibility: hidden;
+  scroll-behavior: smooth;
+}
+
+.row.vid {
+  margin-top: 7%;
+}
+
+.photo-gallery.home {
+  color: #b7e2d9;
+  background-color: #01493d;
 }
 

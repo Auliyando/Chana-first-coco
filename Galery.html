@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery-1.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
@@ -25,7 +28,7 @@
 <body>
     <header class="header-blue">
         <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button">
-            <div class="container"><img class="nav-brand" src="assets/img/89.png" alt="Chana First Coco" title="Chana First Coco"><a class="navbar-brand" href="index.html">Chana First Coco</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="container"><img class="nav-brand" src="assets/img/atribut/89.png" alt="Chana First Coco" title="Chana First Coco"><a class="navbar-brand" href="index.html">Chana First Coco</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -37,49 +40,27 @@
                     </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" data-bss-hover-animate="tada" href="Contact.html">Contact US</a></span>
                 </div>
             </div>
-        </nav>
-        <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
-            <div class="carousel-inner">
-                <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/Carousel%201.png">
-                    <div class="container hero isi">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1 flash animated">
-                                <h1>PERTAMA</h1>
-                                <p>Mauris egestas tellus non ex condimentum, ac ullamcorper sapien dictum. Nam consequat neque quis sapien viverra convallis. In non tempus lorem. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item"><img class="w-100 d-block" src="assets/img/Carousel%202.png">
-                    <div class="container hero isi">
-                        <div class="row" style="color: #00231d;">
-                            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1 flash animated" style="text-align: left;">
-                                <h1>Kedua</h1>
-                                <p>Mauris egestas tellus non ex condimentum, ac ullamcorper sapien dictum. Nam consequat neque quis sapien viverra convallis. In non tempus lorem. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item"><img class="w-100 d-block" src="assets/img/Carousel%203.png">
-                    <div class="container hero isi">
-                        <div class="row" style="color: #00231d;">
-                            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1 flash animated" style="text-align: left;">
-                                <h1>Ketiga</h1>
-                                <p>Mauris egestas tellus non ex condimentum, ac ullamcorper sapien dictum. Nam consequat neque quis sapien viverra convallis. In non tempus lorem. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
-            </ol>
-        </div><a class="whatsapp floating" href="#"><i class="fab fa-whatsapp-square floating"></i></a>
+        </nav><a class="whatsapp floating" href="#"><i class="fab fa-whatsapp-square floating"></i></a>
     </header>
-    <div class="transisinya"><img class="trans-footer" src="assets/img/footer.png"></div>
+    <section class="photo-gallery">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Gallery</h2>
+            </div>
+            <div class="row photos" data-bss-baguettebox="">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="desk.jpg"><img class="img-fluid" src="assets/img/brqt.png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="building.jpg"><img class="img-fluid" src="assets/img/brqt%20(1).png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="loft.jpg"><img class="img-fluid" src="assets/img/brqt%20(2).png"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="building.jpg"><img class="img-fluid" src="assets/img/brqt%20(3).png"></a></div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/gashdgahg" class="video-yt"></iframe></div>
+        </div>
+    </div>
+    <div class="transisinya"><img class="trans-footer" src="assets/img/transisi/wave-haikei.png"></div>
     <footer class="footer-dark">
         <div class="container">
             <div class="row">
@@ -112,7 +93,9 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
 </body>
 

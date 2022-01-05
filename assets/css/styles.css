@@ -106,7 +106,7 @@ img.trans, img.trans-footer {
 }
 
 .header-blue {
-  background-color: rgba(0,35,29,0.9);
+  background-color: #00231d;
 }
 
 .navigation-clean-button {
@@ -289,6 +289,7 @@ body {
 @media (max-width: 576px) {
   .carousel-indicators {
     margin-bottom: 0;
+    visibility: hidden;
   }
 }
 
