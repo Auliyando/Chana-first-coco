@@ -292,7 +292,7 @@ a .icon.ion-social-whatsapp.floating {
   }
 }
 
-.mision-item .item img {
+.mision-item img {
   width: 100%;
 }
 
@@ -360,7 +360,7 @@ thead {
   border: 1px solid #b7e2d9;
   border-radius: 10px;
   margin: 0 10px 10px;
-  transition: 2s;
+  transition: 150ms;
 }
 
 .contact-us:hover {
@@ -434,5 +434,21 @@ ol.carousel-indicators {
   left: 0;
   scroll-behavior: smooth;
   z-index: 1000;
+}
+
+@media (max-width: 576px) {
+  .social-icons i {
+    font-size: larger;
+  }
+}
+
+@media (min-width: 577px) {
+  .social-icons i {
+    font-size: 4rem;
+  }
+}
+
+.colomMisi {
+  width: 50%;
 }
 
