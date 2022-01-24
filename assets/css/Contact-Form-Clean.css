@@ -452,3 +452,9 @@ ol.carousel-indicators {
   width: 50%;
 }
 
+.carousel-item img.satu {
+  filter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+}
+

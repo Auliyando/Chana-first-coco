@@ -251,6 +251,9 @@ body {
 
 .carousel-item img {
   transition: 2s;
+  filter: opacity(65%);
+  -webkit-filter: opacity(65%);
+  -moz-filter: opacity(65%);
 }
 
 .fa.fa-star.floating-icon {
