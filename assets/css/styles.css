@@ -368,6 +368,7 @@ body {
 
 .grid-pr div {
   margin: 0;
+  overflow: visible;
 }
 
 @media (min-width: 576px) {
@@ -391,6 +392,7 @@ body {
 
 .grid-pr {
   margin: auto;
+  padding-bottom: 10px;
   color: #00231d;
   width: 100%;
   height: inherit;
@@ -398,6 +400,7 @@ body {
   justify-items: baseline;
   align-items: baseline;
   justify-content: center;
+  overflow: visible;
 }
 
 .comming-soon {
@@ -413,5 +416,31 @@ body {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   transition: 1000ms;
+}
+
+@media (min-width:992px) {
+  .col-xxl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #359385;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: black;
+  background-color: whitesmoke;
 }
 

@@ -338,11 +338,11 @@ a .icon.ion-social-whatsapp.floating {
 }
 
 th {
-  color: #b7e2d9;
+  color: ghostwhite;
 }
 
 td {
-  color: #b7e2d9;
+  color: floralwhite;
 }
 
 thead {
@@ -456,5 +456,14 @@ ol.carousel-indicators {
   filter: none;
   -webkit-filter: none;
   -moz-filter: none;
+}
+
+.header-blue .navbar .dropdown-menu .dropdown-item.notA:hover {
+  background-color: black !important;
+  color: whitesmoke;
+}
+
+h2.grade {
+  color: whitesmoke;
 }
 

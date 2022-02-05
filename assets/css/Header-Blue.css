@@ -97,7 +97,8 @@
 }
 
 .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
-  background: #b7e2d9;
+  background: ghostwhite !important;
+  color: black;
 }
 
 .header-blue .action-button, .header-blue .action-button:not(.disabled):active {
