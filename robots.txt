@@ -1,8 +1,8 @@
 User-agent: *
-Disallow: /assets/
+Disallow:/assets/
 Disallow:/AboutUs.html
 Disallow:/Contact.html
-Disallow/Galery.html
-Disallow/Product/VCO.html
-Disallow/Product/Cocofiber.html
-Disallow/Product/Cocopeat.html
+Disallow:/Galery.html
+Disallow:/Product/VCO.html
+Disallow:/Product/Cocofiber.html
+Disallow:/Product/Cocopeat.html
