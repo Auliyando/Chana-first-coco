@@ -82,6 +82,40 @@
   opacity: 1;
 }
 
-.pis, .hud, .min, .ul {
+.item.huda {
+  grid-area: Huda;
+}
+
+.item.Aul {
+  grid-area: Aul;
+}
+
+.item.Amin {
+  grid-area: Amin;
+}
+
+.item.Nafis {
+  grid-area: Nafis;
+}
+
+@media (max-width: 575px) {
+  .people {
+    grid-template-areas: "Huda""Amin""Aul""Nafis";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 0 50%;
+  }
+}
+
+.people .col-md-6 {
+  width: fit-content;
+}
+
+.people {
+  display: grid;
+  grid-template-areas: "Huda Amin" "Aul Nafis";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
 }
 

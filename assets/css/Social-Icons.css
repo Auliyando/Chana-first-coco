@@ -22,3 +22,27 @@
   line-height: 60px;
 }
 
+.fab.fa-instagram {
+  color: #bc2a8d;
+}
+
+.fab.fa-github {
+  color: white;
+}
+
+@media (min-width: 577px) {
+  .social-icons i {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .social-icons i {
+    font-size: larger;
+  }
+}
+
+.fab.fa-linkedin {
+  color: #0077b5;
+}
+

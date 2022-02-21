@@ -1,5 +1,5 @@
 .header-blue {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Audiowide';
 }
 
 @media (min-width:768px) {
@@ -49,16 +49,6 @@
     border-color: transparent;
     margin: 0;
   }
-}
-
-.header-blue .navbar .navbar-collapse span .login {
-  color: #d9d9d9;
-  margin-right: .5rem;
-  text-decoration: none;
-}
-
-.header-blue .navbar .navbar-collapse span .login:hover {
-  color: #fff;
 }
 
 .header-blue .navbar .navbar-toggler {
@@ -121,23 +111,6 @@
   color: #d9d9d9;
 }
 
-.header-blue .navbar form .search-field {
-  display: inline-block;
-  width: 80%;
-  background: none;
-  border: none;
-  border-bottom: 1px solid transparent;
-  border-radius: 0;
-  color: #ccc;
-  box-shadow: none;
-  color: inherit;
-  transition: border-bottom-color 0.3s;
-}
-
-.header-blue .navbar form .search-field:focus {
-  border-bottom: 1px solid #ccc;
-}
-
 .header-blue .hero {
   margin-top: 20px;
   text-align: center;
@@ -178,53 +151,140 @@
   }
 }
 
-.header-blue .phone-holder {
-  text-align: right;
-}
-
-.header-blue div.phone-mockup {
-  position: relative;
-  max-width: 300px;
-  margin: 20px;
-  display: inline-block;
-  z-index: 1;
-}
-
-.header-blue .phone-mockup img.device {
-  width: 100%;
-  height: auto;
-}
-
-.header-blue .phone-mockup .screen {
-  position: absolute;
-  width: 94%;
-  height: 98%;
-  top: 1%;
-  left: 3%;
-  border: 1px solid #444;
-  border-radius: 20px;
-  background-color: #aaa;
-  overflow: hidden;
-  background: url(screen-content-phone.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-
-.header-blue .phone-mockup .screen:before {
-  content: '';
-  background-color: #fff;
-  position: absolute;
-  width: 70%;
-  height: 140%;
-  top: -12%;
-  right: -60%;
-  transform: rotate(-19deg);
-  opacity: 0.2;
-}
-
 .hero.isi {
   display: flex;
   align-items: center;
+}
+
+.carousel-item img {
+  transition: 2s;
+  filter: opacity(65%);
+  -webkit-filter: opacity(65%);
+  -moz-filter: opacity(65%);
+}
+
+@media (max-width: 576px) {
+  .carousel-indicators {
+    margin-bottom: 0;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-blue .hero p {
+    color: rgba(255,255,255,1);
+    font-size: 0.6rem;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
+
+.header-blue .hero h1 {
+  font-weight: 600;
+}
+
+.header-blue .hero p {
+  font-weight: 700;
+}
+
+.fab.fa-whatsapp.floating {
+  font-size: 4rem;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 1000;
+  color: #25d366;
+}
+
+.fab.fa-whatsapp-square.floating, .whatsapp .floating {
+  font-size: 4rem;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 1000;
+  color: #25d366;
+}
+
+a .icon.ion-social-whatsapp.floating {
+  font-size: 4rem;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 1000;
+  color: #25d366;
+}
+
+.whatsapp.floating {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 2000;
+}
+
+@media (max-width: 420px) {
+  .header-blue .hero h1 {
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+}
+
+.video-yt {
+  width: 560px;
+  height: 315px;
+  margin: 0;
+}
+
+ol.carousel-indicators {
+  visibility: hidden;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 575px) {
+  .video-yt {
+    width: inherit;
+    height: auto;
+  }
+}
+
+.fas.fa-angle-double-up.floating, .up-button {
+  color: #b7e2d9;
+  font-size: 2.56rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  scroll-behavior: smooth;
+  z-index: 1000;
+}
+
+.carousel-item img.satu {
+  filter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+}
+
+.header-blue .navbar .dropdown-menu .dropdown-item.notA:hover {
+  background-color: black !important;
+  color: whitesmoke;
+}
+
+.col.video {
+  padding: 0;
+  margin-top: 15px;
+}
+
+.row.vid {
+  margin-top: 7%;
+}
+
+header div.transisinya {
+  margin-top: -120px;
+  position: relative;
+}
+
+.header-blue .hero {
+  text-shadow: 1px 4px 20px #00231d;
 }
 

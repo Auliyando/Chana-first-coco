@@ -1,0 +1,58 @@
+.about-us-page {
+  background-image: url("../../assets/img/carousel/Carousel%206.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-dodge;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.page-section.about-heading.briquette-page {
+  background-image: url("../../assets/img/carousel/Carousel%205.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-faded-90 {
+  background-color: rgba(183,226,217,0.9);
+}
+
+.colomMisi {
+  width: 50%;
+}
+
+@media (max-width: 420px) {
+  .mision-item div .name {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+.mision-item img {
+  width: 100%;
+}
+
+.mision-item {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.vision .row {
+  align-items: center;
+}
+
+.mision {
+  background-color: #00231d;
+}
+

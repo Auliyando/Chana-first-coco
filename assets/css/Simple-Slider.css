@@ -62,3 +62,12 @@
   }
 }
 
+.swiper-button-next {
+  color: #01493d;
+  animation-delay: 1s;
+}
+
+.swiper-button-next {
+  animation-duration: 3s;
+}
+
