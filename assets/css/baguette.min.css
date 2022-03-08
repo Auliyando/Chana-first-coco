@@ -210,3 +210,38 @@
   color: #00231d;
 }
 
+.trans.noneshadow {
+  margin-top: -2px;
+  width: 100%;
+  height: 167px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+#aero-2 {
+  background: url("../../assets/img/carousel/Carousel%205.png") center / cover no-repeat;
+  background-color: rgba(0,0,0,.3);
+  background-blend-mode: color-burn;
+}
+
+#aero-4 {
+  background: url("../../assets/img/carousel/Carousel%204.png") top / cover no-repeat;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: color-burn;
+}
+
+@media (min-width: 768px) {
+  p.desc {
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 768px) {
+  h1.whymust {
+    font-size: 3rem;
+  }
+}
+
