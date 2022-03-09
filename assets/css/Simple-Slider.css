@@ -17,7 +17,7 @@
 
 @media (max-width:767px) {
   .simple-slider .swiper-slide {
-    height: 400px;
+    height: 470px;
   }
 }
 
@@ -50,7 +50,7 @@
 
 @media (max-width: 576px) {
   .width-400px {
-    width: 75vw;
+    width: 50vw;
   }
 }
 
@@ -69,5 +69,11 @@
 
 .swiper-button-next {
   animation-duration: 3s;
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .bawahnya {
+    padding-top: 10%;
+  }
 }
 
