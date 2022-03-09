@@ -1,4 +1,5 @@
 var loader = document.getElementById("preloader");
-window.addEventListener("load",function(){
+ind = document.getElementById("Carousel")
+ind.addEventListener("load",function(){
     loader.style.display = "none";
 })
