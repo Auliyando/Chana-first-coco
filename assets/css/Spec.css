@@ -1,13 +1,5 @@
-th {
-  color: ghostwhite;
-}
-
-td {
-  color: floralwhite;
-}
-
-thead {
-  background-color: #00231d;
+#barbeque-grill th {
+  color: var(--bs-gray-dark);
 }
 
 h2.grade {
@@ -18,5 +10,23 @@ div.parallax {
   background: url("../../assets/img/carousel/Carousel%205.png") center / cover;
   width: 100%;
   height: 500px;
+}
+
+.video-and-stats .table {
+  color: inherit;
+}
+
+#barbeque-grill {
+  background: #b7e2d9;
+  color: #00231d;
+}
+
+#barbeque-grill .stats {
+  border-color: #00231d;
+}
+
+div.e2bg {
+  height: 30px;
+  background: linear-gradient(#359385, #b7e2d9 100%);
 }
 

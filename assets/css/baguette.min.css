@@ -220,12 +220,6 @@
   z-index: 2000;
 }
 
-#aero-2 {
-  background: url("../../assets/img/carousel/Carousel%205.png") center / cover no-repeat;
-  background-color: rgba(0,0,0,.3);
-  background-blend-mode: color-burn;
-}
-
 #aero-4 {
   background: url("../../assets/img/carousel/Carousel%204.png") top / cover no-repeat;
   background-color: rgba(0,0,0,0.3);
@@ -243,5 +237,51 @@
   h1.whymust {
     font-size: 3rem;
   }
+}
+
+.features-clean.beda {
+  background-color: #359385;
+  color: #00231d;
+}
+
+#coba {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(#359385, rgba(255,255,255,0) 100%);
+}
+
+.trans-beda {
+  width: 100%;
+  height: 125px;
+  background: linear-gradient(0deg, #00231d, rgba(255,255,255,0));
+}
+
+div.f2b {
+  background: linear-gradient(180deg, #00231d, #01493d 100%);
+  height: 30px;
+}
+
+#economi-class {
+  background: #359385;
+  color: floralwhite;
+}
+
+div.b2e {
+  background: linear-gradient(#01493d, #359385);
+  height: 30px;
+}
+
+#first-class {
+  background-color: #00231d;
+  color: floralwhite;
+}
+
+#barbeque-grill tbody {
+  border-color: #00231d;
+}
+
+.bg2g {
+  height: 30px;
+  background: linear-gradient(#b7e2d9 0%, #00231d);
 }
 
