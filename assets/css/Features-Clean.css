@@ -129,12 +129,12 @@
 
 .team-clean .container {
   color: #b7e2d9;
-  height: 75%;
+  height: auto;
 }
 
 @media (min-width: 1200px) {
   .row.people {
-    height: auto;
+    height: 500px;
     grid-template-areas: "Huda Amin Aul Nafis";
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }

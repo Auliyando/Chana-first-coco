@@ -1,4 +1,5 @@
 .photo-gallery {
+  margin-top: 20px;
   color: #b7e2d9;
   background-color: inherit;
 }
@@ -43,5 +44,7 @@
 .photo-gallery.home {
   color: #b7e2d9;
   background-color: #01493d;
+  margin-bottom: -125px;
+  margin-top: -2px;
 }
 

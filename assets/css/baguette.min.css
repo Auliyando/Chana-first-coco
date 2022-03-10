@@ -282,6 +282,19 @@ div.b2e {
 
 .bg2g {
   height: 30px;
-  background: linear-gradient(#b7e2d9 0%, #00231d);
+  background: #00231d;
+}
+
+.power {
+  margin-top: -2px;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  color: #00231d;
+  background-color: #b7e2d9;
+}
+
+.power img {
+  height: 50vh;
 }
 
