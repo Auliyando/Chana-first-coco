@@ -210,16 +210,6 @@
   color: #00231d;
 }
 
-.trans.noneshadow {
-  margin-top: -2px;
-  width: 100%;
-  height: 167px;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 2000;
-}
-
 #aero-4 {
   background: url("../../assets/img/carousel/Carousel%204.png") top / cover no-repeat;
   background-color: rgba(0,0,0,0.3);
@@ -296,5 +286,20 @@ div.b2e {
 
 .power img {
   height: 50vh;
+}
+
+@media (max-width: 420px) {
+  #kecil-hp {
+    height: 1660px;
+    overflow: hidden;
+  }
+}
+
+.mtop2px {
+  margin-top: -2px;
+}
+
+.trans-footer.bg-b7e2d9 {
+  background-color: #b7e2d9;
 }
 

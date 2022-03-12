@@ -76,8 +76,14 @@
 .stats {
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 150px;
   font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  .stats {
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media (min-width: 768px) {
