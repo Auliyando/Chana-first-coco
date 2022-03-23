@@ -1,7 +1,10 @@
 .features-clean, .mission {
   color: #b7e2d9;
   background-color: #00231d;
-  padding-bottom: 30px;
+  background-image: url("../../assets/img/Texture/T-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 @media (max-width:767px) {

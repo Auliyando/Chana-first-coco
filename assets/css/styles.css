@@ -61,10 +61,10 @@ h1 {
 .product-container {
   padding: 2.5%;
   background-color: #01493d;
-  background-repeat: repeat;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0px 0px;
-  height: 100vh;
+  height: auto;
 }
 
 .transisinya-2 {
@@ -110,6 +110,8 @@ body {
   margin-top: -20px;
   background-color: #01493d;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .transition-h-a {
@@ -137,9 +139,10 @@ body {
 }
 
 .abtus-judul, .visi-judul {
-  color: #fff;
+  color: #f0f0f0;
   text-shadow: 0px 0px 3px;
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .abtus-img, .vision-img {

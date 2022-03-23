@@ -46,3 +46,48 @@ div.e2bg {
   margin-top: -5px;
 }
 
+#hero {
+  width: 100%;
+  height: 100vh;
+  /*margin-top: -100px;*/
+  color: whitesmoke;
+  background: url("../../assets/img/carousel/Carousel%206.png") center / cover no-repeat;
+  background-color: #00231d;
+  background-blend-mode: color-dodge;
+  z-index: 20;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url("../../assets/img/carousel/Carousel%206.png");
+  }
+}
+
+#subtitle {
+  font-family: 'Convergence';
+  font-size: 46px;
+  font-weight: bold;
+}
+
+#hero-bottom {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  #hero-bottom p {
+    font-size: x-large;
+  }
+}
+
+.p-bot {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.p-top {
+  font-size: 26px;
+  font-family: 'Convergence';
+  font-weight: bold;
+  margin-bottom: 0;
+}
+

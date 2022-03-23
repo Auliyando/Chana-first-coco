@@ -18,7 +18,7 @@
 }
 
 .page-section.about-heading.briquette-page {
-  background-image: url("../../assets/img/briquette/11.png");
+  background-image: url("../../assets/img/briquette/b-6.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -58,7 +58,7 @@
 
 h1.whymust {
   margin: 0;
-  background: url("../../assets/img/Untitled%20design%20(4).png") center / cover no-repeat, #b7e2d9;
+  background: url("../../assets/img/Texture/T-1.png") center / cover no-repeat, #b7e2d9;
   background-blend-mode: luminosity;
 }
 
@@ -69,5 +69,14 @@ h1.whymust {
     font-size: 5rem;
     line-height: 167px;
   }
+}
+
+.features-clean, .mission {
+  color: #b7e2d9;
+  background-color: #00231d;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
