@@ -290,7 +290,7 @@ div.b2e {
 
 @media (max-width: 420px) {
   #kecil-hp {
-    height: 1660px;
+    height: auto;
     overflow: hidden;
   }
 }
@@ -302,5 +302,9 @@ div.b2e {
 .trans-footer.bg-b7e2d9 {
   background-color: #282d32;
   margin-top: -3px;
+}
+
+.item {
+  margin-bottom: 20px;
 }
 

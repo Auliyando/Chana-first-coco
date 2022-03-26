@@ -6,12 +6,6 @@ h2.grade {
   color: whitesmoke;
 }
 
-div.parallax {
-  background: url("../../assets/img/carousel/Carousel%205.png") center / cover;
-  width: 100%;
-  height: 500px;
-}
-
 .video-and-stats .table {
   color: inherit;
 }
@@ -89,5 +83,18 @@ div.e2bg {
   font-family: 'Convergence';
   font-weight: bold;
   margin-bottom: 0;
+}
+
+#hero-bottom {
+  color: #fff;
+}
+
+#hero-bottom .container {
+  max-width: 700px;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
 }
 

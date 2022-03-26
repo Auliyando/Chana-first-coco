@@ -334,3 +334,10 @@ body {
   visibility: hidden;
 }
 
+@media (max-width: 577px) {
+  div.col-sm-6.col-md-4.col-lg-3.item {
+    height: auto;
+    margin-bottom: 50px;
+  }
+}
+

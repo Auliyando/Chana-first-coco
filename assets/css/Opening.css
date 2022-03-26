@@ -18,9 +18,10 @@
 }
 
 .page-section.about-heading.briquette-page {
-  background-image: url("../../assets/img/briquette/b-6.png");
+  background-image: url("../../assets/img/carousel/Carousel%201.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .bg-faded-90 {
