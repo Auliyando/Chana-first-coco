@@ -124,9 +124,9 @@
 }
 
 @media (min-width: 577px) {
-  .header-blue .hero h1 {
+  .header-blue .hero h2 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3.84rem;
     margin-top: 0;
     margin-bottom: 15px;
     font-weight: 300;
@@ -135,7 +135,7 @@
 }
 
 @media (min-width:992px) {
-  .header-blue .hero h1 {
+  .header-blue .hero h2 {
     margin-top: 150px;
     margin-bottom: 24px;
     line-height: 1.2;
@@ -145,7 +145,7 @@
 @media (min-width: 577px) {
   .header-blue .hero p {
     color: rgba(255,255,255,1);
-    font-size: 2rem;
+    font-size: 1.72rem;
     margin-bottom: 30px;
     font-weight: 300;
   }
@@ -179,7 +179,7 @@
   }
 }
 
-.header-blue .hero h1 {
+.header-blue .hero h2 {
   font-weight: 600;
 }
 

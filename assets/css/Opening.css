@@ -81,3 +81,7 @@ h1.whymust {
   background-blend-mode: multiply;
 }
 
+iframe {
+  width: 100%;
+}
+
