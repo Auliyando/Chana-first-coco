@@ -45,7 +45,7 @@ div.e2bg {
   height: 100vh;
   /*margin-top: -100px;*/
   color: whitesmoke;
-  background: url("../../assets/img/carousel/Carousel%206.webp") center / cover no-repeat;
+  background: url("../../assets/img/carousel/Carousel%206.png") center / cover no-repeat;
   background-color: #00231d;
   background-blend-mode: color-dodge;
   z-index: 20;
@@ -53,7 +53,7 @@ div.e2bg {
 
 @media (min-width: 768px) {
   #hero {
-    background-image: url("carousel/Carousel 6.png");
+    background-image: url("../../assets/img/carousel/Carousel%206.png");
   }
 }
 
